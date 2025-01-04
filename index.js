@@ -4,12 +4,12 @@ const intervalInseconds = process.env.TIME || 120;   // 自动访问间隔时间
 const UUID = process.env.UUID || '89c13786-25aa-4520-b2e7-12cd60fb5202';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.godtop.us.kg';     // 哪吒3个变量不全不运行
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';              // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一时开启tls
-const NEZHA_KEY = process.env.NEZHA_KEY || 'TLeQomspAOfYzyBbTN';                    // 哪吒客户端密钥
+const NEZHA_KEY = process.env.NEZHA_KEY || 'NkWeU6PgSIkgI0rUZr';                    // 哪吒客户端密钥
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'back4app_shell.godtop.us.kg';                // 固定隧道域名，留空即启用临时隧道
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiMDNmZDcwNjc2ZjgyMDA4MzVmYTViM2EyZjYxMDE2YzIiLCJ0IjoiMDVjODM4NzUtOWMwNy00ZDlkLThiNmYtOTU0NDU4ODY3YmMyIiwicyI6Ik5tSmxNekppTW1VdE5XUXpZaTAwWkRoakxUazRZall0TVRrNE5qWmpNMk5oWW1JMiJ9';                    // 固定隧道json或token，留空即启用临时隧道
 const CFIP = process.env.CFIP || 'www.visa.com.tw';               // 优选域名或优选ip
 const CFPORT = process.env.CFPORT || 443;                         // 节点端口
-const NAME = process.env.NAME || 'Vls';                           // 节点名称
+const NAME = process.env.NAME || 'Back4App_Shell';                           // 节点名称
 const ARGO_PORT = process.env.ARGO_PORT || 54321;                  // Argo端口，使用固定隧道token需和cf后台设置的端口对应
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000; // 节点订阅端口，若无法订阅请手动改为分配的端口
 
